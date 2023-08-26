@@ -1,6 +1,6 @@
 import React from "react";
-import GitHubLogo from "../github-mark.png";
-import LinkedInLogo from "../LI-In-Bug.png";
+import GitHubLogo from "../assets/github-mark.png";
+import LinkedInLogo from "../assets/LI-In-Bug.png";
 
 export default function Footer() {
   return (
@@ -22,7 +22,7 @@ export default function Footer() {
             height='50px'
           />
         </a>
-        <h4>Made with love by Keiji Onishi</h4>
+        <p>Made with love by Keiji Onishi</p>
       </div>
     </footer>
   );
