@@ -1,32 +1,45 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
+  const checkActive = ({ isActive, isPending }) =>
+    isActive ? "nav-link disabled" : "nav-link";
   return (
     <nav className='navbar navbar-expand-sm bg-body-tertiary'>
       <div className='container-fluid'>
         <h1 className='navbar-brand'>Keiji Onishi</h1>
-        <div className='collapse navbar-collapse' id='navbarNav'>
+        <button
+          class='navbar-toggler'
+          type='button'
+          data-bs-toggle='collapse'
+          data-bs-target='#navbarNav'
+          aria-controls='navbarNav'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+        >
+          <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav'>
             <li className='nav-item'>
-              <Link className='nav-link' to={"/AboutMe"}>
+              <NavLink to='/AboutMe' className={checkActive}>
                 About Me
-              </Link>
+              </NavLink>
             </li>
-            <li className='nav-item'>
-              <Link className='nav-link' to={"/Portfolio"}>
+            <li className='nav-item active'>
+              <NavLink to={"/Portfolio"} className={checkActive}>
                 Portfolio
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to={"/Contact"}>
+              <NavLink to={"/Contact"} className={checkActive}>
                 Contact
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to={"/Resume"}>
+              <NavLink to={"/Resume"} className={checkActive}>
                 Resume
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
