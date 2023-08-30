@@ -10,48 +10,44 @@ function Navbar({ currentPage, handlePageChange }) {
         <div className='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav'>
             <li className='nav-item'>
-              <a
+              <button
                 onClick={() => handlePageChange("AboutMe")}
                 className={
                   currentPage === "AboutMe" ? "nav-link active" : "nav-link"
                 }
-                href='#AboutMe'
               >
                 About Me
-              </a>
+              </button>
             </li>
             <li className='nav-item'>
-              <a
+              <button
                 onClick={() => handlePageChange("Portfolio")}
                 className={
                   currentPage === "Portfolio" ? "nav-link active" : "nav-link"
                 }
-                href='#Portfolio'
               >
                 Portfolio
-              </a>
+              </button>
             </li>
             <li className='nav-item'>
-              <a
+              <button
                 onClick={() => handlePageChange("Contact")}
                 className={
                   currentPage === "Contact" ? "nav-link active" : "nav-link"
                 }
-                href='#Contact'
               >
                 Contact
-              </a>
+              </button>
             </li>
             <li className='nav-item'>
-              <a
+              <button
                 onClick={() => handlePageChange("Resume")}
                 className={
                   currentPage === "Resume" ? "nav-link active" : "nav-link"
                 }
-                href='#Resume'
               >
                 Resume
-              </a>
+              </button>
             </li>
           </ul>
         </div>
