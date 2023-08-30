@@ -4,7 +4,7 @@ import Portfolio from "./pages/Portfolio";
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 
 export default function Page() {
   const [currentPage, setCurrentPage] = useState("AboutMe");
@@ -30,7 +30,7 @@ export default function Page() {
     <div>
       <Navbar currentPage = {currentPage} handlePageChange = {handlePageChange} />
       {renderPage()}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
