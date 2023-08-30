@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://meekunn1.github.io"
+  "homepage": "https://myusername.github.io/my-app"
 }
