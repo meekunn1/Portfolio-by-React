@@ -21,7 +21,6 @@ No installation is neccessary for using this webapp.
 ## Usage
 
 Please go to the following URL. You can use the navbar on top to navigte through the page. The form on Contact page is not yet functional at this stage.
-Please go to my [googledrive video link](https://drive.google.com/file/d/13ooWyy8BUMT1Q04YECitBwvLT0j8efXD/view) for a video demonstration of this application.
 
 ## License
   
