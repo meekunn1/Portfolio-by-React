@@ -16,11 +16,13 @@ This is my updated portfolio page using [React](https://react.dev/), and CSS by 
 
 ## Installation
 
-No installation is neccessary for using this webapp.
+No installation is neccessary to access this project.
 
 ## Usage
 
-Please go to the following URL. You can use the navbar on top to navigte through the page. The form on Contact page is not yet functional at this stage.
+Please go to the following [URL](https://meekunn1.github.io/Portfolio-by-React/) to get this project. You can use the navbar on top of the page to navigate through the pages. The form on "Contact" page is not yet functional at this stage.
+
+![portfolio page](./forREADME/portfolio-react-sample.png)
 
 ## License
   
