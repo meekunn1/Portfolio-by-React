@@ -2,6 +2,8 @@ import React from "react";
 import ParkTalk from "../../assets/parkTalk.png";
 import NoteTaker from "../../assets/note-taker-note-page.png";
 import MealMatch from "../../assets/MealMatch.png";
+import StudyBuddy from "../../assets/studybuddy.png";
+
 import WeatherDashboard from "../../assets/WeatherDashboard.png";
 
 import Project from "./Project.js";
@@ -77,6 +79,17 @@ export default function Portfolio() {
               alt={Projects.MealMatch.imageAlt}
             />
             <Project {...Projects.MealMatch} />
+          </div>
+        </div>
+        {/* project5 */}
+        <div className='col' style={styles.marginAll}>
+          <div className='card' style={styles.card}>
+            <img
+              src={StudyBuddy}
+              className='card-img-top'
+              alt={Projects.StudyBuddy.imageAlt}
+            />
+            <Project {...Projects.StudyBuddy} />
           </div>
         </div>
       </div>

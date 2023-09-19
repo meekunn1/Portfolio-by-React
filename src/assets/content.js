@@ -27,7 +27,15 @@ const content = {
       "Webapp using API to get meal recipes and show the necessary exercise to burn off the calories. Requires API keys for API-Ninja and Spoonacular",
     repo: "https://github.com/meekunn1/MealMatch",
     url: "https://meekunn1.github.io/MealMatch/",
-    imageAlt: "homepage for NoteTaker app",
+    imageAlt: "homepage for MealMatch app",
+  },
+  StudyBuddy: {
+    title: "StudyBuddy",
+    comment:
+      "Webapp for creating and sharing a deck of note cards. This project uses React, MongoDB, GraphQL, and JWT.",
+    repo: "https://github.com/Marinah1031/StudyBuddy",
+    url: "https://study-buddy-p3-0d14fa2a37d6.herokuapp.com/",
+    imageAlt: "homepage for StudyBuddy app",
   },
 };
 
