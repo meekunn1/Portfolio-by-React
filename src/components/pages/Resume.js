@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "../../public/KeijiOnishi2023.docx";
+import myResume from "../../public/KeijiOnishiResume2023_webdevelopment.pdf";
 import { skills, otherSkills } from "../../assets/contentResume";
 
 const styles = {
@@ -18,12 +18,12 @@ const styles = {
     margin: "10px",
   },
   skillList: {
-    width: "30rem",
+    width: "60rem",
     margin: "10px",
   },
   primaryListArea: {
     // background: 'black',
-    width: "100%",
+    width: "30rem",
     padding: "10px",
     margin: "10px",
     borderStyle: "solid",
@@ -32,7 +32,7 @@ const styles = {
   },
   secondaryListArea: {
     // background: 'black',
-    width: "100%",
+    width: "30rem",
     padding: "10px",
     margin: "10px",
     borderStyle: "solid",
@@ -43,7 +43,7 @@ const styles = {
 
 export default function Resume() {
   return (
-    <div>
+    <div className='container mb-4 mt-4'>
       <h1>Resume</h1>
       <div className='card' style={styles.marginAll}>
         <p>
@@ -54,8 +54,8 @@ export default function Resume() {
           Download my Resume
         </a>
       </div>
-      <div style={styles.skillList}>
-        <div className='list-group' style={styles.primaryListArea}>
+      <div className='row'>
+        <div className='list-group col' style={styles.primaryListArea}>
           <h6>List of Programming Skills</h6>
           {skills.map((skills) => (
             <ul key={skills}>
@@ -63,7 +63,7 @@ export default function Resume() {
             </ul>
           ))}
         </div>
-        <div className='list-group' style={styles.secondaryListArea}>
+        <div className='list-group col' style={styles.secondaryListArea}>
           <h6>List of other Skills</h6>
           {otherSkills.map((otherSkills) => (
             <ul key={otherSkills}>
