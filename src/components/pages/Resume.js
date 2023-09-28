@@ -50,7 +50,7 @@ export default function Resume() {
           You can download my Resume from the link below. It is still
           work-in-progress.
         </p>
-        <a href={myResume} download='KeijiOnishi2023.docx'>
+        <a href={myResume} download='KeijiOnishiResume2023_webdevelopment.pdf'>
           Download my Resume
         </a>
       </div>
