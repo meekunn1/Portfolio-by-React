@@ -14,7 +14,7 @@ export default function Footer() {
             height='50px'
           />
         </a>
-        <a href='https://linkedin.com/in/keiji-mizutani' target='blank'>
+        <a href='https://linkedin.com/in/keiji-onishi' target='blank'>
           <img
             src={LinkedInLogo}
             alt='Official LinkedIn Logo'
