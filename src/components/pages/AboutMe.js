@@ -1,5 +1,4 @@
 import React from "react";
-import GitHubLogo from "../../assets/github-mark.png";
 import AboutMeText from "../../assets/contentAboutMe";
 import profilePic from "../../assets/aboutMe.jpg"
 
