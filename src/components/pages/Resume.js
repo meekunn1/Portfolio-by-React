@@ -1,6 +1,7 @@
 import React from "react";
 import myResume from "../../public/KeijiOnishiResume2023_webdevelopment.pdf";
 import { skills, otherSkills } from "../../assets/contentResume";
+import Badges from "../badges";
 
 const styles = {
   imageStyle: {
@@ -54,6 +55,7 @@ export default function Resume() {
           Download my Resume
         </a>
       </div>
+      <Badges/>
       <div className='row'>
         <div className='list-group col' style={styles.primaryListArea}>
           <h6>List of Programming Skills</h6>
